@@ -11,7 +11,7 @@
     <div class="nav">
         <h1 class="title">Dojonary</h1>
         <input type="text" name="search" value="Search">
-        <button class="button">Login</button>
+        <button class="button" onclick="button(this)">Login</button>
     </div>
     <div class="body">
         <div class="columna1">
@@ -20,7 +20,7 @@
                     <h1>ninja</h1>
                     <p><i>noun</i></p>
                     <p>Plural: ninjas</p>
-                    <div class="likes">
+                    <div class="likes" onclick="likes()">
                         13 likes
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <h1>ninja</h1>
                     <p><i>noun</i></p>
                     <p>Plural: ninjas</p>
-                    <div class="likes">
+                    <div class="likes" onclick="likes()">
                         13 likes
                     </div>
                 </div>
@@ -45,11 +45,11 @@
                 <p>
                     Dojonary is <br> defined by YOU
                 </p>
-                <button>AddDefinition</button>
+                <button onclick="delete_button(this)">AddDefinition</button>
             </div>
         </div>
     </div>
 
-
+    <script src="script.js"></script>
 </body>
 </html>
